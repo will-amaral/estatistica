@@ -37,7 +37,7 @@ def entrada_dados():
     print()
     # Loop para a entrada de dados
     for i in range(total_valores):
-        dados.append(int(input(">>> Informe o valor %d -> " %(i + 1))))
+        dados.append(float(input(">>> Informe o valor %d -> " %(i + 1))))
     # Retorna a lista com os valores
     return dados
 # -----------------------------------------------------------------------------
